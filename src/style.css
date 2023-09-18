@@ -19,8 +19,8 @@ body {
 /*style logo*/
 .logo{
     position: absolute;
-    left: 20rem;
-    height: 30rem;
+    left: 10%;
+    height: 5%;
     font-family: fantasy;
     font-size: 2.2rem;
     font-style:initial;
@@ -173,7 +173,7 @@ h1 {
     list-style-type: none;
     text-align: center;
     justify-content: center;
-    gap: 10rem;
+    gap: 10%;
     margin: 5rem auto;
 }
 
@@ -184,6 +184,7 @@ h1 {
     align-items: center;
     justify-content: center;    
     display: flex;
+    margin: 2rem  auto;
 }
 
 form{
