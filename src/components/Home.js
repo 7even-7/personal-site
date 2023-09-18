@@ -9,20 +9,20 @@ const Home = () => {
   return (
     <div className='homePage'>
       <div className='avatar'></div>
-      <div className='headline'>Hello, I am John. A food enthusiasts.</div>
+      <div className='headline'>Hello, I am John. Welcome to my site.</div>
       <ul className='icons'>
         <li>
-            <a href='https://www.linkedin.com/in/john-sun06/'>    
+            <a href='https://www.linkedin.com/in/john-sun06/' target='_blank'>    
             <FontAwesomeIcon icon={faLinkedin} style={{color: "#772828",}} size = {iconSize}/>
             </a>  
         </li>
         <li>
-            <a href="https://github.com/7even-7">      
+            <a href="https://github.com/7even-7" target='_blank'>      
             <FontAwesomeIcon icon={faGithub} style={{color: "#772828",}} size = {iconSize}/>
             </a>
         </li>
         <li>      
-            <a href="mailto:jsun777777@gmail.com">
+            <a href="mailto:jsun777777@gmail.com" target='_blank'>
             <FontAwesomeIcon icon={faGoogle} style={{color: "#772828",}} size = {iconSize}/>
             </a>
         </li>
