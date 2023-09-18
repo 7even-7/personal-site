@@ -6,7 +6,6 @@ const Navs = () => {
     <nav className='nav'>
       <Link to='/' className='logo'>JS</Link>
     <ul>
-        <CustomLink to="/home">Home</CustomLink>
         <CustomLink to="/about">About</CustomLink>
         <CustomLink to="/skills">Skills</CustomLink>
         <CustomLink to="/contact">Contact</CustomLink>
