@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+body {
+    margin: 0;
+}
+
+.nav { 
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding: 0 1rem;
+    gap: 2rem;
+    align-items: center;
+}
+
+/*style logo*/
+.logo{
+    position: absolute;
+    left: 20rem;
+    height: 30rem;
+    font-family: fantasy;
+    font-size: 2.2rem;
+    font-style:initial;
+
+}
+
+/* creates hover effect*/
+.nav a{
+    color: inherit;
+    text-decoration: none;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 0 0 #772828;
+    color: #772828;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+
+
+.nav a:hover{
+    box-shadow: inset 100px 0 0 0 #772828;
+    color: white;
+}
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+
+}
+
+
+.homePage{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.headline {
+    color: #772828;
+}
+/*sets the avatar image background*/
+.avatar{
+    background-image: url('assets/avatar.png');
+    background-size: cover; 
+    background-position: center center; 
+    height: 250px; 
+    width: 240px; 
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5rem auto 1rem; 
+   
+}
+/*styling for the social media icons*/
+.icons{
+    list-style-type: none;
+    gap: 1rem;
+    margin: 1rem auto;
+    padding: 0;
+    display: flex;
+    transform: .3s;
+
+
+}
+.icons li:hover {
+    transform: scale(1.2);
+}
+
+.pages {
+    list-style-type: none;
+    gap: 1rem;
+    margin:1rem auto;
+    padding: 0px;
+    display: flex;
+
+}
+
+.pages a{
+    text-decoration: none;
+    color: #772828;
+
+}
+
+
+.pages a:hover{
+    text-decoration: none;
+    box-shadow: inset 100px 0 0 0 #772828;
+    color: white;
+
+}
+h1 {
+    color: #772828;
+}
+.aboutContainer{
+    text-align: left;
+    margin: 0 auto;
+    max-width: 500px;
+    justify-content: center center;
+}
+
+.foodContainer{
+    display: flex;
+}
+
+.foodContainer ul{
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.hotpot{
+    background-image: url('assets/hotpot.jpg');
+    height: 60px;
+    width: 100px;
+    
+}
+
+.pekingduck{
+    background-image: url('assets/pekingduck.jpg');
+    height: 60px;
+    width: 100px;
+}
+
+.guilin{
+    background-image: url('assets/guilinnoodle.jpg');
+    height: 60px;
+    width: 100px;
+}
+
+.lionhead{
+    background-image: url('assets/shizitou.jpg');
+    height: 60px;
+    width: 100px;
+}
+
+.skill{
+    text-align: center;
+    margin: 3rem auto;
+    color: skyblue;
+}
+.skillsContainer ul{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    gap: 10rem;
+    margin: 5rem auto;
+}
+
+
