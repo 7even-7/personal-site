@@ -22,19 +22,19 @@ const Contact = () => {
       <div className='contact'>
         <form ref={form} onSubmit={sendEmail}>
           <div className="input-group">
-            <input type="text" id="name" name="user_name" required/>
+            <input type="text" id="name" name="user_name" placeholder='John Doe' required/>
             <label for="name"><FontAwesomeIcon icon={faUser} style={{color: "#772828",}}/> Your Name</label>
           </div>
           <div className="input-group">
-            <input type="text" id="number" name="user_phone" required/>
+            <input type="tel" id="number" name="user_phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder='123-456-7890'required/>
             <label for="number"><FontAwesomeIcon icon={faPhone} style={{color: "#772828",}}/> Phone #</label>
           </div>
           <div className="input-group">
-            <input type="email" id="email" name = "user_email" required/>
+            <input type="email" id="email" name = "user_email" placeholder="JohnDoe@gmail.com" required/>
             <label for="email"><FontAwesomeIcon icon={faEnvelope} style={{color: "#772828",}}/> Email</label>
           </div>
           <div className="input-group">
-            <textarea id="message"  name="message" rows="7"/>
+            <textarea id="message"  name="message" rows="7" required/>
             <label for="message"><FontAwesomeIcon icon={faMessage} style={{color: "#772828",}}/> Your Message</label>
           </div>
           <button type='submit' value="Send"><FontAwesomeIcon icon={faPaperPlane} style={{color: "#772828",}}/> Submit</button>
